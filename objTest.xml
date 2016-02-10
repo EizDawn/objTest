@@ -90,6 +90,20 @@
                                                             <field name="LIGHT">LEFT</field>
                                                           </block>
                                                         </value>
+                                                        <next>
+                                                          <block type="movement_setmotors" id="117" inline="true">
+                                                            <value name="BOTHMOVLEFT">
+                                                              <block type="sensor_light" id="118">
+                                                                <field name="LIGHT">REAR</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="BOTHMOVRIGHT">
+                                                              <block type="sensor_light" id="119">
+                                                                <field name="LIGHT">REAR</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
