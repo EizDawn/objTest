@@ -76,6 +76,9 @@
                                             <next>
                                               <block type="oled_drawtext" id="184">
                                                 <field name="TEXT"></field>
+                                                <next>
+                                                  <block type="multimedia_doupdate" id="247"></block>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
