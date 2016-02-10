@@ -66,23 +66,6 @@
                                             <field name="NUM">63</field>
                                           </block>
                                         </value>
-                                        <next>
-                                          <block type="oled_drawnumber" id="182" inline="true">
-                                            <value name="NUMBER">
-                                              <block type="sensor_object" id="183">
-                                                <field name="OBJECT">LEFTSIDE</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="oled_drawtext" id="184">
-                                                <field name="TEXT"></field>
-                                                <next>
-                                                  <block type="multimedia_doupdate" id="247"></block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
                                       </block>
                                     </next>
                                   </block>
