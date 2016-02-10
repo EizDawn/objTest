@@ -67,47 +67,19 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_drawnumber" id="32" inline="true">
-                                            <value name="NUMBER">
-                                              <block type="sensor_light" id="56">
-                                                <field name="LIGHT">REAR</field>
-                                              </block>
-                                            </value>
+                                          <block type="multimedia_doupdate" id="35">
                                             <next>
-                                              <block type="oled_drawtext" id="34">
-                                                <field name="TEXT"></field>
-                                                <next>
-                                                  <block type="multimedia_doupdate" id="35">
-                                                    <next>
-                                                      <block type="movement_setmotors" id="66" inline="true">
-                                                        <value name="BOTHMOVLEFT">
-                                                          <block type="sensor_light" id="73">
-                                                            <field name="LIGHT">RIGHT</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="BOTHMOVRIGHT">
-                                                          <block type="sensor_light" id="74">
-                                                            <field name="LIGHT">LEFT</field>
-                                                          </block>
-                                                        </value>
-                                                        <next>
-                                                          <block type="movement_setmotors" id="117" inline="true">
-                                                            <value name="BOTHMOVLEFT">
-                                                              <block type="sensor_light" id="118">
-                                                                <field name="LIGHT">REAR</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="BOTHMOVRIGHT">
-                                                              <block type="sensor_light" id="119">
-                                                                <field name="LIGHT">REAR</field>
-                                                              </block>
-                                                            </value>
-                                                          </block>
-                                                        </next>
-                                                      </block>
-                                                    </next>
+                                              <block type="movement_setmotors" id="66" inline="true">
+                                                <value name="BOTHMOVLEFT">
+                                                  <block type="sensor_light" id="73">
+                                                    <field name="LIGHT">RIGHT</field>
                                                   </block>
-                                                </next>
+                                                </value>
+                                                <value name="BOTHMOVRIGHT">
+                                                  <block type="sensor_light" id="74">
+                                                    <field name="LIGHT">LEFT</field>
+                                                  </block>
+                                                </value>
                                               </block>
                                             </next>
                                           </block>
