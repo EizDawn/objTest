@@ -66,6 +66,9 @@
                                             <field name="NUM">63</field>
                                           </block>
                                         </value>
+                                        <next>
+                                          <block type="multimedia_doupdate" id="295"></block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
