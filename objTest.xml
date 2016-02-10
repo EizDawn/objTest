@@ -67,7 +67,22 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="multimedia_doupdate" id="295"></block>
+                                          <block type="multimedia_doupdate" id="295">
+                                            <next>
+                                              <block type="movement_setmotors" id="314" inline="true">
+                                                <value name="BOTHMOVLEFT">
+                                                  <block type="sensor_object" id="317">
+                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                  </block>
+                                                </value>
+                                                <value name="BOTHMOVRIGHT">
+                                                  <block type="sensor_object" id="318">
+                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </next>
+                                          </block>
                                         </next>
                                       </block>
                                     </next>
