@@ -25,7 +25,7 @@
                 <next>
                   <block type="oled_drawnumber" id="8" inline="true">
                     <value name="NUMBER">
-                      <block type="sensor_light" id="54">
+                      <block type="sensor_light" id="9">
                         <field name="LIGHT">LEFT</field>
                       </block>
                     </value>
@@ -47,7 +47,7 @@
                             <next>
                               <block type="oled_drawnumber" id="14" inline="true">
                                 <value name="NUMBER">
-                                  <block type="sensor_light" id="55">
+                                  <block type="sensor_light" id="15">
                                     <field name="LIGHT">RIGHT</field>
                                   </block>
                                 </value>
@@ -55,28 +55,28 @@
                                   <block type="oled_drawtext" id="16">
                                     <field name="TEXT"></field>
                                     <next>
-                                      <block type="oled_setcursor" id="29" inline="true">
+                                      <block type="oled_setcursor" id="17" inline="true">
                                         <value name="STARTX">
-                                          <block type="math_number" id="30">
+                                          <block type="math_number" id="18">
                                             <field name="NUM">61</field>
                                           </block>
                                         </value>
                                         <value name="STARTY">
-                                          <block type="math_number" id="31">
+                                          <block type="math_number" id="19">
                                             <field name="NUM">55</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="multimedia_doupdate" id="35">
+                                          <block type="multimedia_doupdate" id="20">
                                             <next>
-                                              <block type="movement_setmotors" id="66" inline="true">
+                                              <block type="movement_setmotors" id="21" inline="true">
                                                 <value name="BOTHMOVLEFT">
-                                                  <block type="sensor_light" id="73">
+                                                  <block type="sensor_light" id="22">
                                                     <field name="LIGHT">RIGHT</field>
                                                   </block>
                                                 </value>
                                                 <value name="BOTHMOVRIGHT">
-                                                  <block type="sensor_light" id="74">
+                                                  <block type="sensor_light" id="23">
                                                     <field name="LIGHT">LEFT</field>
                                                   </block>
                                                 </value>
